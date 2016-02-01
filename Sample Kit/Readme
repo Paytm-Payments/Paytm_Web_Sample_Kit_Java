@@ -1,4 +1,0 @@
-Kindly add PayTM values in src/paytm_java/PaytmConstants.java
-open TxnTest.jsp in your browser.
-submit the details.
-Payment details handled using pgResponse.jsp
