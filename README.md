@@ -2,7 +2,7 @@
 
 Use below method of jar to generate checksum and verify checksum as per your JDK version
 
-  1. generate checksum:  
+  1. generate checksum for Transaction Request:  
     public String genrateCheckSum(String Key, TreeMap<String, String> paramap)
   2. generate checksum for Refund Request:  
     public String genrateRefundCheckSum(String Key, TreeMap<String, String> paramap)
@@ -11,7 +11,7 @@ Use below method of jar to generate checksum and verify checksum as per your JDK
 
 # If you are on IBM websphare:
 
-  1. generate checksum:  
+  1. generate checksum for Transaction Request:  
     public String genrateCheckSumIBMJCE(String Key, TreeMap<String, String> paramap)
   2. generate checksum for Refund Request:  
     public String genrateRefundCheckSumIBMJCE(String Key, TreeMap<String, String> paramap)
@@ -20,7 +20,7 @@ Use below method of jar to generate checksum and verify checksum as per your JDK
 
 # If you are on Google App engine: 
 
-  1. generate checksum:  
+  1. generate checksum for Transaction Request:  
     public String genrateCheckSumGAE(String Key, TreeMap<String, String> paramap)
   2. generate checksum for Refund Request:  
     public String genrateRefundCheckSumGAE(String Key, TreeMap<String, String> paramap)
