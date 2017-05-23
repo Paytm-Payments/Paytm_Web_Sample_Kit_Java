@@ -4,7 +4,7 @@ Use below method of jar to generate checksum and verify checksum as per your JDK
 
   1. generate checksum:  
     public String genrateCheckSum(String Key, TreeMap<String, String> paramap)
-  2. generate checksum for Refund Request: 
+  2. generate checksum for Refund Request:  
     public String genrateRefundCheckSum(String Key, TreeMap<String, String> paramap)
   3. verify checksum: 
     public boolean verifycheckSum(String masterKey, TreeMap<String, String>  paramap,String responseCheckSumString)
