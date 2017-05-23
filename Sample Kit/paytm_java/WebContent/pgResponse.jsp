@@ -1,7 +1,7 @@
 <%@page import="paytm_java.PaytmConstants"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@ page import="java.util.*,com.paytm.merchant.CheckSumServiceHelper"%>
+<%@ page import="java.util.*,com.paytm.pg.merchant.CheckSumServiceHelper"%>
 <%
 Enumeration<String> paramNames = request.getParameterNames();
 
