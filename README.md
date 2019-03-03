@@ -9,7 +9,7 @@ Use below method of jar to generate checksum and verify checksum as per your JDK
   3. Verify Checksum:  
     public boolean verifycheckSum(String masterKey, TreeMap<String, String>  paramap,String responseCheckSumString)
 
-# If you are on IBM websphare:
+# If you are on IBM websphere:
 
   1. Generate Checksum For Transaction Request:  
     public String genrateCheckSumIBMJCE(String Key, TreeMap<String, String> paramap)
